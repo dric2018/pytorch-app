@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/home/zeusdric/Dric/devs/ml-dl/cpp/app-1/app-1.cpp
+/home/zeusdric/Dric/devs/ml-dl/cpp/app-1/app-2.cpp
 torch/torch.h
--
-iostream
 -
 
 /home/zeusdric/Dric/libtorch/include/ATen/ATen.h

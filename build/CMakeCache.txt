@@ -154,7 +154,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=app-1
+CMAKE_PROJECT_NAME:STATIC=app-2
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -397,10 +397,10 @@ TORCH_LIBRARY:FILEPATH=/home/zeusdric/Dric/libtorch/lib/libtorch.so
 Torch_DIR:PATH=/home/zeusdric/Dric/libtorch/share/cmake/Torch
 
 //Value Computed by CMake
-app-1_BINARY_DIR:STATIC=/home/zeusdric/Dric/devs/ml-dl/cpp/app-1/build
+app-2_BINARY_DIR:STATIC=/home/zeusdric/Dric/devs/ml-dl/cpp/app-1/build
 
 //Value Computed by CMake
-app-1_SOURCE_DIR:STATIC=/home/zeusdric/Dric/devs/ml-dl/cpp/app-1
+app-2_SOURCE_DIR:STATIC=/home/zeusdric/Dric/devs/ml-dl/cpp/app-1
 
 
 ########################

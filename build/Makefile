@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named app-1
+# Target rules for targets named app-2
 
 # Build rule for target.
-app-1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 app-1
-.PHONY : app-1
+app-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 app-2
+.PHONY : app-2
 
 # fast build rule for target.
-app-1/fast:
-	$(MAKE) -f CMakeFiles/app-1.dir/build.make CMakeFiles/app-1.dir/build
-.PHONY : app-1/fast
+app-2/fast:
+	$(MAKE) -f CMakeFiles/app-2.dir/build.make CMakeFiles/app-2.dir/build
+.PHONY : app-2/fast
 
-app-1.o: app-1.cpp.o
+app-2.o: app-2.cpp.o
 
-.PHONY : app-1.o
+.PHONY : app-2.o
 
 # target to build an object file
-app-1.cpp.o:
-	$(MAKE) -f CMakeFiles/app-1.dir/build.make CMakeFiles/app-1.dir/app-1.cpp.o
-.PHONY : app-1.cpp.o
+app-2.cpp.o:
+	$(MAKE) -f CMakeFiles/app-2.dir/build.make CMakeFiles/app-2.dir/app-2.cpp.o
+.PHONY : app-2.cpp.o
 
-app-1.i: app-1.cpp.i
+app-2.i: app-2.cpp.i
 
-.PHONY : app-1.i
+.PHONY : app-2.i
 
 # target to preprocess a source file
-app-1.cpp.i:
-	$(MAKE) -f CMakeFiles/app-1.dir/build.make CMakeFiles/app-1.dir/app-1.cpp.i
-.PHONY : app-1.cpp.i
+app-2.cpp.i:
+	$(MAKE) -f CMakeFiles/app-2.dir/build.make CMakeFiles/app-2.dir/app-2.cpp.i
+.PHONY : app-2.cpp.i
 
-app-1.s: app-1.cpp.s
+app-2.s: app-2.cpp.s
 
-.PHONY : app-1.s
+.PHONY : app-2.s
 
 # target to generate assembly for a file
-app-1.cpp.s:
-	$(MAKE) -f CMakeFiles/app-1.dir/build.make CMakeFiles/app-1.dir/app-1.cpp.s
-.PHONY : app-1.cpp.s
+app-2.cpp.s:
+	$(MAKE) -f CMakeFiles/app-2.dir/build.make CMakeFiles/app-2.dir/app-2.cpp.s
+.PHONY : app-2.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... app-1"
-	@echo "... app-1.o"
-	@echo "... app-1.i"
-	@echo "... app-1.s"
+	@echo "... app-2"
+	@echo "... app-2.o"
+	@echo "... app-2.i"
+	@echo "... app-2.s"
 .PHONY : help
 
 
