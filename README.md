@@ -3,7 +3,7 @@ A minimal example of machine learning with pytorch using its C++ API [(original 
 
 # Installation 
 
-1- Dowload the version of the C++ API you want:
+## 1- Dowload the version of the C++ API you want:
 > CPU : https://download.pytorch.org/libtorch/cpu/libtorch-cxx11-abi-shared-with-deps-1.7.1%2Bcpu.zip
 
 
@@ -13,12 +13,12 @@ A minimal example of machine learning with pytorch using its C++ API [(original 
 # Example for GPU support
 $ wget https://download.pytorch.org/libtorch/cu110/libtorch-cxx11-abi-shared-with-deps-1.7.1%2Bcu110.zip
 ```
-2- Then unzip the compressed file
+## 2- Then unzip the compressed file
 ```
 # Example for GPU support
 $ unzip libtorch-cxx11-abi-shared-with-deps-1.7.1%2Bcu110.zip
 ```
-3- Create a folder test test installation
+## 3- Create a folder test test installation
 ```
 # here we called our folder app-1 and it is organized like following:
 
@@ -75,7 +75,7 @@ int main() {
 }
 ```
 
-4- Move to app-1/build/ and rund:
+## 4- Move to app-1/build/ and rund:
 ```
 $ cmake -DCMAKE_PREFIX_PATH=< /absolute/path/to/libtorch > ..
 
@@ -86,7 +86,7 @@ $ cmake -DCMAKE_PREFIX_PATH=< /absolute/path/to/libtorch > ..
 **NB** : `/absolute/path/to/libtorch` is the absolute path to your extracted download (libtorch)
 e.g : `/home/workstation/dev/libtorch`
 
-5- Run:
+## 5- Run:
 ```
 $ cmake --build . --config Release
 
@@ -139,7 +139,7 @@ $ cmake -DCMAKE_PREFIX_PATH=`python -c 'import torch;print(torch.utils.cmake_pre
 
 ```
 
-6- Last thing is to run the C++ built code in app-1/build:
+## 6- Last thing is to run the C++ built code in app-1/build:
 ```
 $ ./app-1
 ``` 
